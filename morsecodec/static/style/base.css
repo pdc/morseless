@@ -70,3 +70,29 @@ label {
 input[type="text"] {
     width: 372px;
 }
+
+aside {
+    width: 480px;
+    margin: 2em auto;
+
+
+    font-size: 0.8125em;
+    font-weight: 200;
+    color: #A5923C;
+}
+
+aside p {
+    margin: 0 10px;
+}
+
+a:link,
+a:visited {
+    color: #A5923C;
+    text-decoration: none;
+    border-bottom: 1px solid #64532C;
+}
+a:hover,
+a:active {
+    color: #FDF9BB;
+    border-color: #FDF9BB;
+}
