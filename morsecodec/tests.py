@@ -10,9 +10,6 @@ from django.test.client import Client
 
 
 class OldStyleTestCase(TestCase):
-    def setUp(self):
-        self.client = Client()
-
     def test_nothing(self):
         self.response = self.client.get('/', {})
 
@@ -35,3 +32,19 @@ class OldStyleTestCase(TestCase):
     def then_should_display_text(self, expected):
         self.assertEqual(200, self.response.status_code)
         self.assertEqual(expected, self.response.context['text'])
+
+
+class ApiTestCase(TestCase):
+    def test_nothing(self):
+        self.when_client_requests_decode_morse('.... . .-.. .-.. ---')
+
+        self.then_should_return_text('HELLO')
+
+
+    def when_client_requests_decode_morse(morse):
+        self.response = self.client.get('/decode', {'morse': morse})
+
+    def then_should_return_text(self, expected):
+        self.assertEqual(200, self.response.status_code)
+        self.object = json.loads(self.response.content)
+        self.assertEqual(expected, self.object['text'])

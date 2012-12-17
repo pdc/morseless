@@ -9,6 +9,7 @@ urlpatterns = patterns('',
     #
     # url(r'^morseless/', include('morseless.foo.urls')),
     url(r'^$', 'morsecodec.views.home', name='home'),
+    url(r'^decode$', 'morsecodec.views.decode', name='decode'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
