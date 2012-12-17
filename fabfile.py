@@ -13,7 +13,7 @@ env.settings_subdir = env.site_name
 env.django_apps = ['morsecodec']
 
 def update_requirements():
-    local("pip freeze | egrep -v 'Fabric|pycrypto|ssh' > REQUIREMENTS")
+    local("pip freeze | egrep -v 'Fabric|pycrypto|ssh|paramiko' > REQUIREMENTS")
 
 def test():
     with settings(warn_only=True):
