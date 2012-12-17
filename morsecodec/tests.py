@@ -6,7 +6,7 @@ Replace this with more appropriate tests for your application.
 """
 
 from django.test import TestCase
-from django.test.client import Client
+import json
 
 
 class OldStyleTestCase(TestCase):
@@ -41,7 +41,7 @@ class ApiTestCase(TestCase):
         self.then_should_return_text('HELLO')
 
 
-    def when_client_requests_decode_morse(morse):
+    def when_client_requests_decode_morse(self, morse):
         self.response = self.client.get('/decode', {'morse': morse})
 
     def then_should_return_text(self, expected):
