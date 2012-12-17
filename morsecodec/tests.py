@@ -19,10 +19,15 @@ class OldStyleTestCase(TestCase):
         self.then_should_succeed()
         self.assertTrue('text' not in self.response.context)
 
-    def test_a(self):
+    def test_splits_latters_at_spaces(self):
         self.response = self.client.get('/', {'morse': '.... . .-.. .-.. ---'})
 
         self.then_should_display_text('HELLO')
+
+    def test_allows_slash_as_word_space(self):
+        self.response = self.client.get('/', {'morse': '- .... .-. --- ..- --. .... / .... . .-. .'})
+
+        self.then_should_display_text('THROUGH HERE')
 
     def then_should_succeed(self):
         self.assertEqual(200, self.response.status_code)

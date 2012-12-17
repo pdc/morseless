@@ -1,5 +1,6 @@
 
 from_morse = {
+    '/': ' ', # Homestuck uses / to represent the longer pause between wordss
     "-.--": "Y",
     "--..--": ",",
     "....-": "4",
