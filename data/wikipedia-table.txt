@@ -1,0 +1,122 @@
+==Letters, numbers, punctuation==
+{| class="wikitable"
+! Character || Code || Character || Code || Character || Code
+! Character || Code || Character || Code || Character || Code
+|-
+| {{Audio-nohelp|A morse code.ogg|A}} || '''·&nbsp;–'''
+| {{Audio-nohelp|J morse code.ogg|J}} || '''·&nbsp;–&nbsp;–&nbsp;–'''
+| {{Audio-nohelp|S morse code.ogg|S}} || '''·&nbsp;·&nbsp;·'''
+| {{Audio-nohelp|1 number morse code.ogg|1}} || '''·&nbsp;–&nbsp;–&nbsp;–&nbsp;–'''
+| [[Period (punctuation)|Period]] [.] || '''·&nbsp;–&nbsp;·&nbsp;–&nbsp;·&nbsp;–'''
+| [[Colon (punctuation)|Colon]] [:] || '''–&nbsp;–&nbsp;–&nbsp;·&nbsp;·&nbsp;·'''
+|-
+| {{Audio-nohelp|B morse code.ogg|B}} || '''–&nbsp;·&nbsp;·&nbsp;·'''
+| {{Audio-nohelp|K morse code.ogg|K}} || '''–&nbsp;·&nbsp;–'''
+| {{Audio-nohelp|T morse code.ogg|T}} || '''–'''
+| {{Audio-nohelp|2 number morse code.ogg|2}} || '''·&nbsp;·&nbsp;–&nbsp;–&nbsp;–'''
+| [[Comma (punctuation)|Comma]] [,] || '''–&nbsp;–&nbsp;·&nbsp;·&nbsp;–&nbsp;–'''
+| [[Semicolon]] [;] || '''–&nbsp;·&nbsp;–&nbsp;·&nbsp;–&nbsp;·'''
+|-
+| {{Audio-nohelp|C morse code.ogg|C}} || '''–&nbsp;·&nbsp;–&nbsp;·'''
+| {{Audio-nohelp|L morse code.ogg|L}} || '''·&nbsp;–&nbsp;·&nbsp;·'''
+| {{Audio-nohelp|U morse code.ogg|U}} || '''·&nbsp;·&nbsp;–'''
+| {{Audio-nohelp|3 number morse code.ogg|3}} || '''·&nbsp;·&nbsp;·&nbsp;–&nbsp;–'''
+| [[Question mark]] [?] || '''·&nbsp;·&nbsp;–&nbsp;–&nbsp;·&nbsp;·'''
+| [[Equal sign|Double dash]] [=] || '''–&nbsp;·&nbsp;·&nbsp;·&nbsp;–'''
+|-
+| {{Audio-nohelp|D morse code.ogg|D}} || '''–&nbsp;·&nbsp;·'''
+| {{Audio-nohelp|M morse code.ogg|M}} || '''–&nbsp;–'''
+| {{Audio-nohelp|V morse code.ogg|V}} || '''·&nbsp;·&nbsp;·&nbsp;–'''
+| {{Audio-nohelp|4 number morse code.ogg|4}} || '''·&nbsp;·&nbsp;·&nbsp;·&nbsp;–'''
+| [[Apostrophe (punctuation)|Apostrophe]] ['] || '''·&nbsp;–&nbsp;–&nbsp;–&nbsp;–&nbsp;·'''
+| [[Plus and minus signs|Plus]] [+] || '''·&nbsp;–&nbsp;·&nbsp;–&nbsp;·'''
+|-
+| {{Audio-nohelp|E morse code.ogg|E}} || '''·'''
+| {{Audio-nohelp|N morse code.ogg|N}} || '''–&nbsp;·'''
+| {{Audio-nohelp|W morse code.ogg|W}} || '''·&nbsp;–&nbsp;–'''
+| {{Audio-nohelp|5 number morse code.ogg|5}} || '''·&nbsp;·&nbsp;·&nbsp;·&nbsp;·'''
+| [[Exclamation mark]] [!] || '''–&nbsp;·&nbsp;–&nbsp;·&nbsp;–&nbsp;–'''
+| [[Hyphen]], [[Plus and minus signs|Minus]] [-] || '''–&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;–'''
+|-
+| {{Audio-nohelp|F morse code.ogg|F}} || '''·&nbsp;·&nbsp;–&nbsp;·'''
+| {{Audio-nohelp|O morse code.ogg|O}} || '''–&nbsp;–&nbsp;–'''
+| {{Audio-nohelp|X morse code.ogg|X}} || '''–&nbsp;·&nbsp;·&nbsp;–'''
+| {{Audio-nohelp|6 number morse code.ogg|6}} || '''–&nbsp;·&nbsp;·&nbsp;·&nbsp;·'''
+| [[Slash (punctuation)|Slash]] [/], [[Fraction (mathematics)|Fraction bar]] || '''–&nbsp;·&nbsp;·&nbsp;–&nbsp;·'''
+| [[Underscore]] [_] || '''·&nbsp;·&nbsp;–&nbsp;–&nbsp;·&nbsp;–'''
+|-
+| {{Audio-nohelp|G morse code.ogg|G}} || '''–&nbsp;–&nbsp;·'''
+| {{Audio-nohelp|P morse code.ogg|P}} || '''·&nbsp;–&nbsp;–&nbsp;·'''
+| {{Audio-nohelp|Y morse code.ogg|Y}} || '''–&nbsp;·&nbsp;–&nbsp;–'''
+| {{Audio-nohelp|7 number morse code.ogg|7}} || '''–&nbsp;–&nbsp;·&nbsp;·&nbsp;·'''
+| [[Bracket#Parentheses ( )|Parenthesis]] open [(] || '''–&nbsp;·&nbsp;–&nbsp;–&nbsp;·'''
+| [[Quotation mark]] ["] || '''·&nbsp;–&nbsp;·&nbsp;·&nbsp;–&nbsp;·'''
+|-
+| {{Audio-nohelp|H morse code.ogg|H}} || '''·&nbsp;·&nbsp;·&nbsp;·'''
+| {{Audio-nohelp|Q morse code.ogg|Q}} || '''–&nbsp;–&nbsp;·&nbsp;–'''
+| {{Audio-nohelp|Z morse code.ogg|Z}} || '''–&nbsp;–&nbsp;·&nbsp;·'''
+| {{Audio-nohelp|8 number morse code.ogg|8}} || '''–&nbsp;–&nbsp;–&nbsp;·&nbsp;·'''
+| Parenthesis closed [)] || '''–&nbsp;·&nbsp;–&nbsp;–&nbsp;·&nbsp;–'''
+| [[Dollar sign]] [$] || '''·&nbsp;·&nbsp;·&nbsp;–&nbsp;·&nbsp;·&nbsp;–'''
+|-
+| {{Audio-nohelp|I morse code.ogg|I}} || '''·&nbsp;·'''
+| {{Audio-nohelp|R morse code.ogg|R}} || '''·&nbsp;–&nbsp;·'''
+| {{Audio-nohelp|0 number morse code.ogg|0}} || '''–&nbsp;–&nbsp;–&nbsp;–&nbsp;–'''
+| {{Audio-nohelp|9 number morse code.ogg|9}} || '''–&nbsp;–&nbsp;–&nbsp;–&nbsp;·'''
+| [[Ampersand]] [&], Wait || '''·&nbsp;–&nbsp;·&nbsp;·&nbsp;·'''
+| [[Commercial at|At sign]] [@] || '''·&nbsp;–&nbsp;–&nbsp;·&nbsp;–&nbsp;·''' (=A+C, see below)
+|}
+
+There is no standard representation for the exclamation mark (!), although the <span style="text-decoration: overline">KW</span> [[Digraph (orthography)|digraph]] ('''–&nbsp;·&nbsp;–&nbsp;·&nbsp;–&nbsp;–''') was proposed in the 1980s by the [[Heathkit]] Company (a vendor of assembly kits for amateur radio equipment). While Morse code translation software prefers this version, on-air use is not yet universal as some amateur radio operators in Canada and the USA continue to prefer the older <span style="text-decoration: overline">MN</span> digraph ('''–&nbsp;–&nbsp;–&nbsp;·''') carried over from American landline telegraphy code.
+
+The &, $ and _ signs are not defined inside the ITU recommendation on Morse code. The $ sign code was represented in the [[Phillips Code]], a huge collection of abbreviations used on land line telegraphy, as <span style="text-decoration: overline">SX</span>. The representation of the & sign given above, often shown as <span style="text-decoration: overline">AS</span>, is also the Morse prosign for '''wait'''. In addition, the American landline representation of an ampersand was similar to "ES" ('''·&nbsp;&nbsp;·&nbsp;·&nbsp;·''') and hams have carried over this usage as a synonym for "and" (WX HR COLD ES RAINY, "the weather here is cold & rainy").
+
+On May 24, 2004 — the 160th anniversary of the first public Morse telegraph transmission — the Radiocommunication Bureau of the International Telecommunication Union ([[ITU-R]]) formally added the @ ("[[commercial at]]" or "commat") character to the official Morse character set, using the sequence denoted by the <span style="text-decoration: overline">AC</span> digraph ('''·&nbsp;–&nbsp;–&nbsp;·&nbsp;–&nbsp;·'''). This sequence was reportedly chosen to represent "A[T] C[OMMERCIAL]" or a letter "a" inside a swirl represented by a "C".<ref>{{Cite web| title=International Morse Code Gets a New ITU Home, New Character | url=http://www.arrl.org/news/stories/2003/12/10/2/?nc=1 | accessdate=February 27, 2007 |archiveurl = http://web.archive.org/web/20070930203318/http://www.arrl.org/news/stories/2003/12/10/2/?nc=1 <!-- Bot retrieved archive --> |archivedate = September 30, 2007}}</ref> The new character facilitates sending [[email]] addresses by Morse code and is notable since it is the first official addition to the Morse set of characters since [[World War I]].
+
+===Prosigns===
+{{Main|Prosigns for Morse code}}
+{| class="wikitable"
+! Meaning || Code || Meaning || Code || Meaning || Code
+|-
+|Wait || '''·&nbsp;–&nbsp;·&nbsp;·&nbsp;·&nbsp;'''
+|Error || '''·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;'''
+|Understood || '''·&nbsp;·&nbsp;·&nbsp;–&nbsp;·&nbsp;'''
+|-
+|Invitation to transmit || '''–&nbsp;·&nbsp;–'''
+|End of work || '''·&nbsp;·&nbsp;·&nbsp;–&nbsp;·&nbsp;–'''
+|Starting Signal || '''–&nbsp;·&nbsp;–&nbsp;·&nbsp;–'''
+|}
+Defined in the ITU recommendation.
+
+===Non-English extensions ===
+{| class="wikitable"
+! Character(s) || Code || Character(s) || Code || Character(s) || Code
+|-
+|[[ä]] (also [[æ]] and [[ą]]) || '''·&nbsp;–&nbsp;·&nbsp;–'''
+|[[è]] (also [[L with stroke|ł]])|| '''·&nbsp;–&nbsp;·&nbsp;·&nbsp;–'''
+|[[ñ]] (also [[ń]])|| '''–&nbsp;–&nbsp;·&nbsp;–&nbsp;–'''
+|-
+|[[à]] (also [[å]]) || '''·&nbsp;–&nbsp;–&nbsp;·&nbsp;–'''
+|[[é]] (also [[D with stroke|đ]] and [[ę]]) || '''·&nbsp;·&nbsp;–&nbsp;·&nbsp;·'''
+|[[ö]] (also [[ø]] and [[ó]]) || '''–&nbsp;–&nbsp;–&nbsp;·'''
+|-
+|[[ç]] (also [[ĉ]] and [[ć]]) || '''–&nbsp;·&nbsp;–&nbsp;·&nbsp;·'''
+|[[ĝ]] || '''–&nbsp;–&nbsp;·&nbsp;–&nbsp;·'''
+|[[ŝ]] || '''·&nbsp;·&nbsp;·&nbsp;–&nbsp;·'''
+|-
+|[[ch]] (also [[š]]) ||'''–&nbsp;–&nbsp;–&nbsp;–'''
+|[[ĥ]] || '''–&nbsp;·&nbsp;–&nbsp;–&nbsp;·'''&nbsp;(Obsolete)<br/>'''–&nbsp;–&nbsp;–&nbsp;–&nbsp;''' &nbsp;(New)
+|[[þ]] ("Thorn") || '''·&nbsp;–&nbsp;–&nbsp;·&nbsp;·'''
+|-
+|[[ð]] ("Eth") || '''·&nbsp;·&nbsp;–&nbsp;–&nbsp;·'''
+|[[ĵ]] || '''·&nbsp;–&nbsp;–&nbsp;–&nbsp;·'''
+|[[ü]] (also [[ŭ]]) || '''·&nbsp;·&nbsp;–&nbsp;–'''
+|-
+|[[ś]] || '''·&nbsp;·&nbsp;·&nbsp;–&nbsp;·&nbsp;·&nbsp;·'''
+|[[ź]] || '''–&nbsp;–&nbsp;·&nbsp;·&nbsp;–&nbsp;·'''
+|[[ż]] || '''–&nbsp;–&nbsp;·&nbsp;·&nbsp;–'''
+|}
+
+===Non-Latin extensions===
+{{Main|Other alphabets in Morse code}}
+For [[Chinese language|Chinese]], [[Chinese telegraph code]] is used to map [[Chinese characters]] to four-digit codes and send these digits out using standard Morse code. [http://homepages.cwi.nl/~dik/english/codes/morse.html#korean Korean Morse code] uses the [[SKATS]] mapping, originally developed to allow Korean to be typed on western typewriters.  SKATS maps [[hangul]] characters to arbitrary letters of the [[Latin script]] and has no relationship to pronunciation in [[Korean language|Korean]].

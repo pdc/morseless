@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Morseless</title>
+    </head>
+    <body>
+        <h1>Morseless</h1>
+        {% if text %}
+        <table>
+            <tbody>
+                <tr>
+                    <th>Morse</th>
+                    <td>{{ morse }}</td>
+                </tr>
+                <tr>
+                    <th>Text</th>
+                    <td>{{ text }}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Again!</h2>
+        {% endif %}
+        <form>
+            <div>
+                <label for="morse">Morse:</label>
+                <input name="morse" id="morse" />
+            </div>
+            <div class="buttons">
+                <input type="submit" value="Decode" />
+            </div>
+        </form>
+    </body>
+</html>
