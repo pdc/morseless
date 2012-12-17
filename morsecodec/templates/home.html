@@ -1,35 +1,43 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
     <head>
         <meta charset="UTF-8">
         <title>Morseless</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'style/base.css' %}" />
     </head>
     <body>
         <h1>Morseless</h1>
         {% if text %}
-        <table>
-            <tbody>
-                <tr>
-                    <th>Morse</th>
-                    <td>{{ morse }}</td>
-                </tr>
-                <tr>
-                    <th>Text</th>
-                    <td>{{ text }}</td>
-                </tr>
-            </tbody>
-        </table>
+        <section id="results">
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Morse</th>
+                        <td>{{ morse }}</td>
+                    </tr>
+                    <tr>
+                        <th>Text</th>
+                        <td>{{ text }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-        <h2>Again!</h2>
+        <section id="form" class="form again">
+            <h2>Again!</h2>
+        {% else %}
+        <section id="form" class="form initial">
         {% endif %}
-        <form>
-            <div>
-                <label for="morse">Morse:</label>
-                <input name="morse" id="morse" />
-            </div>
-            <div class="buttons">
-                <input type="submit" value="Decode" />
-            </div>
-        </form>
+            <form>
+                <div>
+                    <label for="morse">Morse:</label>
+                    <input type="text" name="morse" id="morse" />
+                </div>
+                <div class="buttons">
+                    <input type="submit" value="Decode" />
+                </div>
+            </form>
+        </section>
     </body>
 </html>

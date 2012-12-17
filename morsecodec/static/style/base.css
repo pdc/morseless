@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Neue Haas Grotesk", "Helvetica Neue", "Neue Helvetica", "Arial", "Helvetica", sans-serif;
+    line-height: 1.25;
+    color: #FDF9BB;
+    background: #3E211E;
+}
+
+h1 {
+    width: 460px;
+    margin: 1em auto 0.5em;
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+section {
+    width: 480px;
+    margin: 1.25em auto;
+    padding: 0 20px;
+
+    color: #000;
+    background-color: #D4CD72;
+    text-shadow: #FDF9BD 1px 1px 1px;
+    border: 1px outset #FDF9BD;
+    border-radius: 7px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 1.25em 5px;
+}
+
+td, th {
+    padding: 0.3125em 5px;
+    text-align: left;
+    vertical-align: baseline;
+}
+
+th {
+    font-weight: inherit;
+    font-style: italic;
+    width: 70px;
+}
+
+h2 {
+    margin: 0.5em 10px ;
+    font-size: 1.25em;
+    font-weight: inherit;
+}
+
+form>div {
+    clear: both;
+    margin: 0.625em 10px;
+}
+
+form>div.buttons {
+    margin: 0 10px 1.25em 90px;
+}
+
+label {
+    float: left;
+    width: 70px;
+    margin: 0 10px 0 0;
+}
+
+input[type="text"] {
+    width: 372px;
+}
