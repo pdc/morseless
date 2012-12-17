@@ -1,12 +1,25 @@
 var Morseless = (function($) {
     var ajaxUrl;
     var out;
+    var timeoutID;
 
     function update() {
+        if (timeoutID) {
+            clearTimeout(timeoutID);
+            timeoutID = null;
+        }
         var morse = $('#morse').val();
         $.getJSON(ajaxUrl, {morse: morse}, function (data, textStatus, jqXHR) {
             out.val(data.text);
         });
+    }
+    function scheduleUpdate() {
+        if (!timeoutID) {
+            timeoutID = setTimeout(function () {
+                timeoutID = null;
+                update();
+            }, 750);
+        }
     }
 
     return {
@@ -24,7 +37,8 @@ var Morseless = (function($) {
             out.appendTo(div);
 
             $('#morse').change(update);
-
+            $('#morse').keypress(scheduleUpdate);
+            $('#morse').bind('paste', scheduleUpdate);
         }
     }
 })(jQuery);
