@@ -44,10 +44,11 @@
 
         <aside>
             <p>A microsite by <a href="http://alleged.org.uk/pdc/">Damian Cugley</a>.</p>
+            <p>Here’s a bookmarklet for adding mouseover translations to the current page: <a class="bookmarklet" href="{{ bookmarklet_url }}">Morseless</a> – drag it to your bookmarks bar.</p>
         </aside>
 
         <script type="text/javascript" src="{% static 'script/jquery-1.8.3.min.js' %}"></script>
-        <script type="text/javascript" src="{% static 'script/morseless.js' %}"></script>
+        <script type="text/javascript" src="{% static 'script/morseless.min.js' %}"></script>
         <script type="text/javascript">
             $(function () {Morseless.init('{% url "decode" %}')});
         </script>

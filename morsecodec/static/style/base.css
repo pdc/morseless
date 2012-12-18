@@ -82,7 +82,7 @@ aside {
 }
 
 aside p {
-    margin: 0 10px;
+    margin: 0.625em 10px;
 }
 
 a:link,
@@ -91,8 +91,21 @@ a:visited {
     text-decoration: none;
     border-bottom: 1px solid #64532C;
 }
+
 a:hover,
 a:active {
     color: #FDF9BB;
     border-color: #FDF9BB;
+}
+
+a.bookmarklet:link,
+a.bookmarklet:visited {
+    padding: 1px 5px;
+    background: #64532C;
+    border: 1px outset #64532C;
+    border-radius: 5px;
+}
+a.bookmarklet:hover,
+a.bookmarklet:active {
+    color: inherit;
 }

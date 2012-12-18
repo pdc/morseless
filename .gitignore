@@ -1,2 +1,3 @@
 *.pyc
 morseless/settings.py
+closure-compiler
