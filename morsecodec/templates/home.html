@@ -48,7 +48,12 @@
         </aside>
 
         <script type="text/javascript" src="{% static 'script/jquery-1.8.3.min.js' %}"></script>
-        <script type="text/javascript" src="{% static 'script/morseless.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'script/csrf_for_ajax.js' %}"></script>
+
+        <script type="text/javascript" src="{% static 'script/log4javascript_uncompressed.js' %}"></script>
+        <script type="text/javascript" src="{% static 'script/logging.conf.js' %}"></script>
+
+        <script type="text/javascript" src="{% static 'script/morseless.js' %}"></script>
         <script type="text/javascript">
             $(function () {Morseless.init('{% url "decode" %}')});
         </script>

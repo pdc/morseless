@@ -11,6 +11,8 @@ urlpatterns = patterns('',
     url(r'^$', 'morsecodec.views.home', name='home'),
     url(r'^decode$', 'morsecodec.views.decode', name='decode'),
 
+    url(r'logs/(?P<log_name>[\w-]+)$', 'log4javascript.views.log', name='log'),
+
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 

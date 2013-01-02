@@ -4,6 +4,7 @@ var Morseless = (function($) {
     var timeoutID;
 
     function update() {
+        //window.log.debug('update');
         if (timeoutID) {
             clearTimeout(timeoutID);
             timeoutID = null;
@@ -14,6 +15,7 @@ var Morseless = (function($) {
         });
     }
     function scheduleUpdate() {
+        //window.log.debug('scheduleUpdate');
         if (!timeoutID) {
             timeoutID = setTimeout(function () {
                 timeoutID = null;
