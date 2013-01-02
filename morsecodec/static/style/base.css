@@ -109,3 +109,37 @@ a.bookmarklet:hover,
 a.bookmarklet:active {
     color: inherit;
 }
+
+
+/* Adjustments for portable screens */
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        width: auto;
+        margin: 0.75em 10px 0.5em;
+        font-size: 2em;
+    }
+    section {
+        width: 100%;
+        margin: 1.25em 0;
+        padding: 0;
+
+        border-radius: 0;
+    }
+    label {
+        float: none;
+        width: auto;
+
+        display: block;
+    }
+    input[type="text"] {
+        width: 100%;
+        margin: 2px -4px;
+        padding: 2px;
+        border: 2px inset;
+        font-size: 1.25em;
+    }
+     input[type="text"][disabled] {
+        border-style: flat;
+     }
+}
