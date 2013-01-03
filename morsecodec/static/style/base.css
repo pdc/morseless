@@ -113,11 +113,11 @@ a.bookmarklet:active {
 
 /* Adjustments for portable screens */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
     h1 {
         width: auto;
         margin: 0.75em 10px 0.5em;
-        font-size: 2em;
+        font-size: 1.5em;
     }
     section {
         width: 100%;
@@ -126,6 +126,18 @@ a.bookmarklet:active {
 
         border-radius: 0;
     }
+    input[type="text"] {
+        font-size: 1.25em;
+    }
+    aside {
+        font-size: inherit;
+        width: auto;
+
+        margin: 2em 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
     label {
         float: none;
         width: auto;
