@@ -116,7 +116,7 @@ a.bookmarklet:active {
 @media only screen and (max-width: 480px) {
     h1 {
         width: auto;
-        margin: 0.75em 10px 0.5em;
+        margin: 1em 10px 0;
         font-size: 1.5em;
     }
     section {
@@ -125,6 +125,8 @@ a.bookmarklet:active {
         padding: 0;
 
         border-radius: 0;
+        border-left: none;
+        border-right: none;
     }
     input[type="text"] {
         font-size: 1.25em;
