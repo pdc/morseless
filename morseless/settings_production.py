@@ -168,8 +168,8 @@ LOGGING = {
             'propagate': True,
         },
         'log4javascript': {
-            'handlers': ['console', 'mail_admins'],
-            'level': 'DEBUG',
+            'handlers': ['mail_admins'],
+            'level': 'ERROR',
             'propagate': True,
         },
     }
