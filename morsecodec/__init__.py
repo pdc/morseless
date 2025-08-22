@@ -1,1 +1,1 @@
-from morse import *
+from .morse import *

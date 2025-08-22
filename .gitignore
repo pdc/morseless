@@ -1,3 +1,5 @@
 *.pyc
-morseless/settings.py
 closure-compiler
+.env
+.gitignore
+db.sqlite3

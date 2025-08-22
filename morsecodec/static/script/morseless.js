@@ -1,4 +1,4 @@
-var Morseless = (function($) {
+var Morseless = (function ($) {
     var ajaxUrl;
     var out;
     var timeoutID;
@@ -10,7 +10,7 @@ var Morseless = (function($) {
             timeoutID = null;
         }
         var morse = $('#morse').val();
-        $.getJSON(ajaxUrl, {morse: morse}, function (data, textStatus, jqXHR) {
+        $.getJSON(ajaxUrl, { morse: morse }, function (data, textStatus, jqXHR) {
             out.val(data.text);
         });
     }
@@ -20,7 +20,7 @@ var Morseless = (function($) {
             timeoutID = setTimeout(function () {
                 timeoutID = null;
                 update();
-            }, 750);
+            }, 250);
         }
     }
 
